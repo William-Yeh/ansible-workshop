@@ -1,0 +1,11 @@
+[gce-host]
+#111.222.333.444
+
+# trusty
+ansible1  ansible_ssh_host=130.211.86.73
+
+# centos7
+ansible2  ansible_ssh_host=104.155.88.122
+
+# centos6
+ansible3  ansible_ssh_host=104.155.86.123
