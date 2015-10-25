@@ -32,6 +32,8 @@
       notify:
         - restart nginx
 
+    - name: make sure nginx is started
+      service: name=nginx state=started
 
   handlers:
     - name: restart nginx
