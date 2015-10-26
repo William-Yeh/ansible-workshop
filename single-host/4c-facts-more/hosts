@@ -1,0 +1,2 @@
+node1  ansible_ssh_host=10.0.0.10
+node2  ansible_ssh_host=10.0.0.20

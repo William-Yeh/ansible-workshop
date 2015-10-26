@@ -1,0 +1,12 @@
+- hosts: all
+  tasks:
+    - name: show memory size
+      script: showmem.sh  {{ ansible_memtotal_mb }}
+
+    - name: single CPU
+      debug: msg="Only one CPU at target machine."
+      when: ansible_processor_vcpus == 1
+
+    - name: multiple CPUs
+      debug: msg="Multiple CPUs {{ ansible_processor_vcpus }} at target machine."
+      when: ansible_processor_vcpus > 1
