@@ -2,7 +2,10 @@ Ansible Workshop - Hands-On Materials
 ===
 
 
-Course info: http://school.william-yeh.net/
+**DEPRECATED!**
+
+For revised course since January 2016, see: http://get.soft-arch.net/ansible
+
 
 
 ## Usage
